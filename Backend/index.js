@@ -30,6 +30,10 @@ app.get('/', (req, res) => {
   res.send('rohit')
 })
 
+app.get('/hello', (req, res) => {
+    res.send('hii')
+  })
+
 //defining routes
 app.use("/book", bookRoute);
 app.use("/user", userRoute);
