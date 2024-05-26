@@ -26,9 +26,9 @@ try{
     console.log("Error:", error);
 }
 
-// app.get('/', (req, res) => {
-//   res.send('rohit')
-// })
+app.get('/', (req, res) => {
+  res.send('rohit')
+})
 
 //defining routes
 app.use("/book", bookRoute);
